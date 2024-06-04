@@ -1,0 +1,673 @@
+body {
+	margin: 0;
+	padding: 0;
+   }
+
+   #dragon img {
+	width: 100%;
+   }
+   #dragon .gradient {
+    width: 1112px;
+    height: 860px;
+    background: linear-gradient(0deg, #0c003c 0%, #0c003c 42%, transparent);
+    position: absolute;
+    z-index: -999;
+    left: 588px;
+    top: 393px;
+}
+  
+  
+   h1, h2, h3, a {
+	  font-family: 'Bebas Neue', cursive;
+	  font-weight: 400;
+  }
+  
+  p {
+	  font-family: 'Open Sans';
+	  font-weight: 400;
+	  text-transform: uppercase;
+  }
+  
+	  p {
+		  color: #fff;
+		  font-size: 30px;
+		  line-height: 32px;
+	  }
+  
+  h1 {
+	  color: #fff;
+	  font-size: 253px;
+	  margin-top: -33px;
+	  margin-bottom: 0;
+	  text-align: center;
+	 }
+  
+  h2 {
+	   color: #659af3;
+	   font-size: 366px;
+	   line-height: 480px;
+	   margin-bottom: 0;
+	   margin-top: -10px;
+	   text-align: center;
+	  }
+  
+   h3 {
+	  color: #fff;
+	  font-size: 98px;
+	  line-height: 90px;
+	  margin-top: -116px;
+	  margin-bottom: 0;
+	  text-align: center;
+	  }
+  
+  
+   #backgroundblue { z-index: -999; }
+  
+   
+   #background 
+  { 
+	   left: 0; 
+	   top: 0; 
+	   position: relative; 
+	   margin-left: auto; 
+	   margin-right: auto; 
+	   width: 1242px;
+	   height: 2688px;
+	   overflow: hidden;
+	   z-index:0;
+	  } 
+  
+   #backgroundblue
+  { 
+	   left: -819px; 
+	   top: 0; 
+	   position: absolute; 
+	   width: 2944px;
+	   height: 2688px;
+	   z-index:1;
+  } 
+  
+   #moneystack1
+  { 
+	   left: 584px; 
+	   top: 389px; 
+	   position: absolute; 
+	   width: 409px;
+	   height: 247px;
+	   z-index:2;
+  } 
+  
+   #spinner 
+  {
+	   left: 63px;
+	   top: 465px;
+	   position: absolute;
+	   width: 917px;
+	   height: 917px;
+	   z-index:3;
+	 } 
+  
+   #blurredspinner 
+  {
+	   left: 63px;
+	   top: 465px;
+	   position: absolute;
+	   width: 917px;
+	   height: 917px;
+	   z-index:4;
+	 } 
+  
+   #Depositsafelyandsecu 
+  {
+	   left: 39px;
+	   top: 2160px;
+	   position: absolute;
+	   width: 1165px;
+	   height: 26px;
+	   z-index:5;
+	   text-align: center;
+	 } 
+  
+   #button 
+  {
+	   left: 221px;
+	   top: 1946px;
+	   position: absolute;
+	   width: 800px;
+	   height: 196px;
+	   z-index:6;
+	 } 
+  
+   #Layer18 
+  { 
+	   left: -1326px; 
+	   top: 0; 
+	   position: absolute; 
+	   width: 5256px;
+	   height: 2688px;
+	   z-index:7;
+  } 
+  
+   #STARTPLAYING 
+  { 
+	   left: 371px; 
+	   top: 2358px; 
+	   position: absolute; 
+	   width: 498px;
+	   height: 80px;
+	   z-index:8;
+  } 
+  
+   #logo
+  { 
+	   left: 299px; 
+	   top: 101px; 
+	   position: absolute; 
+	   width: 624px;
+	   height: 257px;
+	   z-index:9;
+  } 
+  
+   #Deposit50Get500 
+  { 
+	   left: 237px; 
+	   top: 2053px; 
+	   position: absolute; 
+	   width: 769px;
+	   height: 88px;
+	   z-index:10;
+  } 
+  
+   #FREESPINSonselectgam 
+  { 
+	   left: 119px; 
+	   top: 2165px; 
+	   position: absolute; 
+	   width: 1004px;
+	   height: 80px;
+	   z-index:11;
+  } 
+  
+   #dragon
+  {
+	   left: -537px;
+	   top: 342px;
+	   position: absolute;
+	   width: 1773px;
+	   height: 1412px;
+	   z-index:12;
+	 } 
+  
+   #coin1 
+  { 
+	   left: 1123px; 
+	   top: 1738px; 
+	   position: absolute; 
+	   width: 361px;
+	   height: 369px;
+	   z-index:13;
+  } 
+  
+   #coin4
+  { 
+	   left: 49px; 
+	   top: 797px; 
+	   position: absolute; 
+	   width: 361px;
+	   height: 369px;
+	   z-index:14;
+  } 
+  
+   #coin3
+  { 
+	   left: -213px; 
+	   top: 193px; 
+	   position: absolute; 
+	   width: 340px;
+	   height: 391px;
+	   z-index:15;
+  } 
+  
+   #coin2
+  { 
+	   left: 1044px; 
+	   top: 162px; 
+	   position: absolute; 
+	   width: 340px;
+	   height: 391px;
+	   z-index:16;
+  } 
+  
+   #free
+  {
+	   left: 138px;
+	   top: 1209px;
+	   position: absolute;
+	   width: 965px;
+	   height: 251px;
+	   z-index:17;
+	 } 
+  
+   #spins 
+  {
+	   left: 27px;
+	   top: 1373px;
+	   position: absolute;
+	   width: 1200px;
+	   height: 417px;
+	   z-index:18;
+	 } 
+  
+   #unlock 
+  {
+	   left: 380px;
+	   top: 1030px;
+	   position: absolute;
+	   width: 482px;
+	   height: 189px;
+	   z-index:19;
+	 } 
+  
+   #moneystack3
+  { 
+	   left: -246px; 
+	   top: 982px; 
+	   position: absolute; 
+	   width: 617px;
+	   height: 341px;
+	   z-index:20;
+  } 
+  
+   #moneystack2
+  { 
+	   left: 1005px; 
+	   top: 663px; 
+	   position: absolute; 
+	   width: 454px;
+	   height: 540px;
+	   z-index:21;
+  } 
+  
+	#moneystack4
+  { 
+	   left: -94px; 
+	   top: -268px; 
+	   position: absolute; 
+	   width: 419px;
+	   height: 453px;
+	   z-index:22;
+  } 
+  
+	#moneystack5
+  { 
+	   left: -319px; 
+	   top: 1845px; 
+	   position: absolute; 
+	   width: 419px;
+	   height: 453px;
+	   z-index:23;
+  } 
+  
+  
+  a:hover img { opacity:0.8; }
+  
+  
+  .rotate img {
+	animation: rotation 10s infinite linear;
+  }
+  
+  @keyframes rotation {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(359deg);
+	}
+  }
+  
+  /* Responsive Querries */
+  
+  
+  
+  @media only screen and (max-width: 787px) {
+  
+  #background {
+	  width: 1242px;
+	  height: 2488px;
+	  overflow: hidden!important;
+  }
+  
+  
+  #free img, #spins img { max-width: 800px; } 
+  
+  #logo { top: 51px; }
+  
+  #button { top: 1970px; }
+  
+  #FREESPINSonselectgam { top: 1845px; }
+  
+  #unlock { top: 903px; }
+  
+  #free { top: 1108px; text-align: center; }
+  
+  #spins { top: 1324px; text-align: center; }
+  
+  #moneystack3 { top: 782px; }
+  
+  #coin4 { left: -100px; top: 697px; }
+  
+  #dragon { top: 312px; background: linear-gradient(0deg, #0c003c 0%, #0c003c 46%, transparent 67%) !important; }
+  
+  #FREESPINSonselectgam { top: 1705px; }
+  
+  #Deposit50Get500 { top: 1803px; }
+  
+  #button { top: 1950px; }
+  
+  #spinner, #blurredspinner { top: 365px; }
+  
+  #blurredspinner { top: 365px; }
+  
+  #Depositsafelyandsecu { top: 2217px; text-align: center; }
+  
+  #Depositsafelyandsecu img { max-width: 1000px; }
+  
+  
+  }
+  
+  
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  
+  #background {
+	  width: 1242px;
+	  height: 2688px;
+	  overflow: hidden;
+  }
+  
+  
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1399px)  {
+  
+  
+  #Depositsafelyandsecu { text-align: center; top: 2347px;}
+  
+  #Depositsafelyandsecu img { max-width: 1000px;} 
+  
+  
+  #button {
+	  text-align: center; top: 2159px; }
+  
+  #button img { max-width: 500px; }
+  
+  
+  
+  .widthlimit {
+	  width: 1242px;
+  }
+  
+  #spins { text-align: center; top: 1544px; }
+  
+  #spins img { max-width: 900px; }
+  
+  
+  #Deposit50Get500 { text-align:center;  top: 1923px; }
+  #Deposit50Get500 img { max-width: 900px; }
+  
+  #FREESPINSonselectgam {  text-align:center; top: 2025px;}
+  #FREESPINSonselectgam img { max-width: 900px; }
+  
+  #background {
+	  height: 2500px; }
+  
+  #logo img { max-width: 550px; }
+  #logo { text-align: center; }
+  
+  /*#blurredspinner img, #spinner img { max-width: 900px; }*/
+  
+  #blurredspinner, #spinner { text-align:center; }
+  
+  #free, #spins { text-align: center; }
+  
+  /* #free img, #spins { max-width: 800px} */
+  
+  
+  
+  #coin2 {
+	  left: 1144px!important;
+	  top: 162px!important;
+	  width: 340px;
+	  height: 391px;
+	  z-index: 16;
+  }
+  
+  #coin2 img {
+	  max-width: 300px;
+  }
+  
+  
+   #coin3
+  { 
+	   left: -113px; 
+  }
+  
+  #coin3 img {
+	  max-width: 300px;
+  }
+  
+  
+  #coin1 { 
+	  left: 1153px;
+  }
+  
+  #coin1 img {
+	  max-width: 300px;
+  }
+  
+  #coin4 img {
+	  max-width: 300px;
+  }
+  
+  .moneystack2 { max-width: 550px; }
+  
+  
+  }
+  
+  
+  
+  
+  
+  @media only screen and (min-width: 1200px) {
+  
+  #background {
+	  overflow: visible;
+  }
+  #dragon .gradient {
+	display: none;
+	visibility: 0;
+  }
+  .widthlimit {width: 1242px;}
+  
+  
+  #coin2 {
+	  left: 1144px!important;
+	  top: 162px!important;
+	  width: 340px;
+	  height: 391px;
+	  z-index: 16;
+  }
+  
+  #coin2 img {
+	  max-width: 300px;
+  }
+  
+  
+   #coin3
+  { 
+	   left: -113px; 
+  }
+  
+  #coin3 img {
+	  max-width: 300px;
+  }
+  
+  
+  #coin1
+  { 
+	  left: 1153px;
+  }
+  
+  #coin1 img {
+	  max-width: 200px;
+  }
+  
+  
+  }
+  
+  
+  @media only screen and (min-width: 1400px) {
+  
+  #coin1 {
+	  left: 1453px;
+  }
+  
+  #background { overflow: hidden; width: 100%; }
+  
+  #dragon {
+	  left: -576px; }
+  
+  h2 {margin-top: 10px;}
+  
+  h1 {margin-top: -20px;}
+  
+  #button {
+	  top: 1981px;
+	  }
+  
+  #spinner {
+	  left: 143px; }
+  
+  #blurredspinner {
+	  left: 143px; }
+  
+  #logo { left: 360px; }
+  
+  #unlock {
+	  left: 470px; }
+  
+   #free {
+	  left: 239px; text-align: center;}
+  
+   #spins {
+	   text-align: center;
+	  left: 127px; }
+  
+  #Deposit50Get500 {
+	  left: 337px;}
+  
+  #FREESPINSonselectgam {
+	  left: 219px;}
+  
+  #button {
+	  left: 321px; }
+  
+  #Depositsafelyandsecu {
+	  left: 139px;}
+  
+   #Depositsafelyandsecu {
+	  top: 2357px;
+  }
+  
+  #background { height: 2488px; }
+  
+  
+  .maxwidth {
+	transform: scale(0.4, 0.4);
+	transform-origin: center;
+  }
+  
+  
+  #coin3 { left: -400px; }
+  
+  #coin2 { left: 1544px!important; }
+  
+  #moneystack5 {
+	  left: -719px; }
+  
+  #moneystack3 {
+	  left: -546px; }
+  
+   #moneystack2 {
+	  left: 1405px; }
+  
+  #background {
+	  height: 988px;
+	  padding-left: 130px;
+  }
+  
+  #backgroundblue { z-index: -999; }
+  
+   #free {
+	text-align: center;}
+  
+   #spins {
+	   text-align: center;
+   }
+  
+   p { text-align:center; }
+  
+  /* Animations 
+  
+  
+  
+  #coin4 {
+	  animation: fall 2.7s linear infinite .1s;
+  }
+  
+  @keyframes fall {
+	0% {top:-110px; transform: rotate(0deg) rotateY(-90deg); opacity:1;}
+	100% {top:900px; transform: rotate(360deg) rotateY(180deg); opacity:0.7;}
+  }
+  
+  @keyframes fall2 {
+	0% {top:-110px; transform: rotate(0deg) rotateY(90deg); opacity:1;}
+	100% {top:900px; transform: rotate(-360deg) rotateY(-180deg); opacity:0.5;}
+  }
+  
+  
+  #coin1 {
+	  animation: drop 4.7s linear infinite .1s;
+  }
+  
+  
+  @keyframes drop {
+	0% {top:-10px; transform: rotate(0deg) rotateY(-90deg); opacity:1;}
+	100% {top:900px; transform: rotate(360deg) rotateY(180deg); opacity:0.7;}
+  }
+  
+  @keyframes drop {
+	0% {top:-10px; transform: rotate(0deg) rotateY(90deg); opacity:1;}
+	100% {top:1738px; transform: rotate(-360deg) rotateY(-180deg); opacity:0.5;}
+  }
+  
+  
+  
+  
+  #moneystack3 {
+	  animation: dropmoney 4.7s linear infinite .2s;
+  }
+  
+  
+  @keyframes dropmoney {
+	0% {top:-110px; transform: rotate(0deg) rotateY(-90deg); opacity:1;}
+	100% {top:982px; transform: rotate(360deg) rotateY(180deg); opacity:0.7;}
+  }
+  
+  @keyframes dropmoney {
+	0% {top:-110px; transform: rotate(0deg) rotateY(90deg); opacity:1;}
+	100% {top:982px; transform: rotate(-360deg) rotateY(-180deg); opacity:0.5;}
+  }
+  
+  */
+  
